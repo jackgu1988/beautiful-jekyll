@@ -93,6 +93,16 @@
             </a>
           </li>
           {% endif %}
+		  {% if site.author.pgp and site.footer-links-active.pgp %}
+          <li>
+            <a href="https://pgp.mit.edu/pks/lookup?op=get&search={{ site.author.pgp }}" title="PGP">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-key fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
       {% if site.author.snapchat and site.footer-links-active.snapchat %}
           <li>
             <a href="https://www.snapchat.com/add/{{ site.author.snapchat }}" title="Snapchat">

@@ -53,6 +53,7 @@ author:
   linkedin: yourname  # eg. daattali
   xing: yourname      # eg. daattali
   stackoverflow: yourlink  # eg. "3943160/daattali"
+  pgp: yourfingerprint  # eg. "0x400f1b7c9d56a894"
   snapchat: yourname  # eg. daattali
   instagram: yourname # eg. daattali
   youtube: yourlink   # eg. user/daattali or channel/daattali
@@ -71,6 +72,7 @@ footer-links-active:
   linkedin: false
   xing: false
   stackoverflow: false
+  pgp: false
   snapchat: false
   instagram: false
   youtube: false
